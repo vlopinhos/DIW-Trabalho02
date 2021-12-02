@@ -1,0 +1,147 @@
+body{
+    background-color: lightgrey;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav i{
+    font-size: 40px;
+    color: white;
+}
+
+nav i:hover{
+    font-size: 40px;
+    color: red;
+}
+
+nav button.btn{
+    background-color: white;
+}
+
+nav button.btn:hover{
+    background-color: red;
+    color: white;
+}
+
+.profile, .repositories{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#profileImg{
+    border-radius: 250px;
+}
+
+#profileUser{
+    margin-top: 5px;
+}
+
+#profileFollowers{
+    padding: 5px;
+    border-radius: 15px;
+    background-color: lightgrey;
+}
+
+#profileFollowing{
+    padding: 5px;
+    border-radius: 15px;
+    background-color: lightgrey;
+}
+
+#profileBio{
+    margin-top: 10px;
+}
+
+#repositoryButton{
+    border-color: lightgrey;
+}
+
+#repositoryButton:hover{
+    border-color: lightgrey;
+    background-color: lightskyblue;
+    color: black;
+}
+
+#siteButton{
+    border-color: lightgrey;
+}
+
+#siteButton:hover{
+    border-color: lightgrey;
+    background-color: lightskyblue;
+    color: black;
+}
+
+main i{
+    color: black;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+
+footer a{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+footer a:hover{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 600px){
+    .profile, .repositories{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding: 30px;
+        border-radius: 20px;
+        background-color: white;
+    }
+
+    #profileImg{
+        width: 100%;
+    }
+
+    nav{
+        text-align: center;
+    }
+
+    nav i{
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 980px){
+    .profile, .repositories{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding: 30px;
+        border-radius: 20px;
+        background-color: white;
+    }
+
+    #profileImg{
+        width: 100%;
+    }
+}
